@@ -9,5 +9,9 @@ $(function(){
       var bundle = $(this).attr("data-bundle");
       var originalUrl = amazonUrl + bundle + ".jpg";
       $( this ).attr("src", originalUrl);
+    })
+    .click(function(){
+      var bundle = $(this).attr("data-bundle");
+      ga('send', 'event', 'Bundle Image Click', 'Bundle' + bundle );
     });
 });
