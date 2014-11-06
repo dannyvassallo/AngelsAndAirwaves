@@ -1,0 +1,6 @@
+@charset "utf-8";
+// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+@import "bootstrapvariables";
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "styles";
